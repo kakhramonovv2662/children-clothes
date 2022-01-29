@@ -8,7 +8,9 @@
 }
 
 .contant {
-    margin-left: 60px;
+    &__wrapper {
+        margin-left: 60px;
+    }
 
     &__title {
         font-weight: normal;
@@ -52,5 +54,231 @@
         color: #333333;
         padding: 8px 28px;
         margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .footer {
+        
+        &__container {
+            display: inline-block;
+        }
+    }
+
+    .contant {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-left: 90px;
+
+        &__title {
+            margin-bottom: 15px;
+        }
+
+        &__link {
+            margin-bottom: 10px;
+        }
+
+        &__about {
+            margin-left: 170px;
+        }
+
+        &__information-title {
+            margin-left: 90px;
+            margin-bottom: 50px;
+        }
+
+        &__input {
+            display: block;
+            border: none;
+            border-bottom: 1px solid #C4C4C4;
+            width: 400px;
+            padding-bottom: 8px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            margin-left: 80px;
+        }
+
+        &__btn {
+            margin-bottom: 100px;
+            background-color: #222;
+            color: #fff;
+            border: none;
+            margin-left: 200px;
+        }
+    }
+}
+
+@media only screen and (max-width: 611px) {
+
+    .contant {
+        margin-left: 30px;
+
+        &__information {
+            margin-left: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 561px) {
+
+    .contant {
+        margin-left: 10px;
+
+        &__information-title {
+            margin-left: 60px;
+        }
+
+        &__input {
+            margin-left: 55px;
+        }
+
+        &__btn {
+            margin-left: 190px;
+        }
+    }
+}
+
+@media only screen and (max-width: 511px) {
+
+    .contant {
+        margin-left: 10px;
+
+        &__information-title {
+            margin-left: 50px;
+        }
+
+        &__input {
+            margin-left: 40px;
+        }
+
+        &__btn {
+            margin-left: 175px;
+        }
+
+        &__about {
+            margin-left: 90px;
+        }
+    }
+}
+
+@media only screen and (max-width: 481px) {
+
+    .contant {
+        margin-left: 10px;
+
+        &__information-title {
+            margin-left: 30px;
+        }
+
+        &__input {
+            margin-left: 20px;
+        }
+
+        &__btn {
+            margin-left: 160px;
+        }
+
+        &__about {
+            margin-left: 80px;
+        }
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+    .contant {
+        margin-left: 10px;
+
+        &__wrapper {
+            margin-left: 30px;
+        }
+
+        &__information-title {
+            max-width: 250px;
+            margin-left: 0;
+        }
+
+        &__input {
+            width: 250px;
+            margin-left: 0;
+            font-size: 12px;
+        }
+
+        &__btn {
+            margin-left: 180px;
+        }
+
+        &__about {
+            margin-left: 80px;
+        }
+    }
+}
+
+@media only screen and (max-width: 376px) {
+
+    .contant {
+        margin-left: 0;
+
+        &__wrapper {
+            margin-left: 30px;
+        }
+
+        &__title {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        &__link {
+            font-size: 12px;
+        }
+
+        &__btn {
+            margin-left: 150px;
+        }
+
+        &__about {
+            margin-left: 60px;
+        }
+    }
+}
+
+@media only screen and (max-width: 321px) {
+
+    .contant {
+        margin-left: 0;
+
+        &__wrapper {
+            margin-left: 25px;
+        }
+
+        &__information-title {
+            max-width: 200px;
+            margin-left: 0;
+        }
+
+        &__title {
+            font-size: 12px;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        &__link {
+            font-size: 10px;
+        }
+
+        &__input {
+            width: 200px;
+            margin-left: 0;
+            font-size: 11px;
+        }
+
+        &__btn {
+            margin-left: 100px;
+        }
+
+        &__about {
+            margin-left: 60px;
+        }
     }
 }

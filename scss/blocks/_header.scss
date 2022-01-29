@@ -43,7 +43,7 @@
 
 .close {
     width: 290px;
-    background-color: #fff;
+    background-color: #222;
     display: none;
     margin-top: 50px;
     margin-left: 450px;
@@ -69,7 +69,7 @@
         line-height: 16px;
         letter-spacing: 0.04em;
         text-transform: uppercase;
-        color: #333333;
+        color: #fff;
     }
 
     &__btn {
@@ -77,7 +77,8 @@
         margin-top: 10px;
         border: none;
         font-weight: bold;
-        background-color: #fff;
+        background-color: #222;
+        color: #fff;
     }
 }
 
@@ -203,7 +204,7 @@
 
     .close {
         height: 300px;
-        margin-left: 130px;
+        margin-left: 80px;
     }
 }
 

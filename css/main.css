@@ -266,7 +266,7 @@ body {
 
 .close {
   width: 290px;
-  background-color: #fff;
+  background-color: #222;
   display: none;
   margin-top: 50px;
   margin-left: 450px;
@@ -294,7 +294,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #333333;
+  color: #fff;
 }
 
 .close__btn {
@@ -302,7 +302,8 @@ body {
   margin-top: 10px;
   border: none;
   font-weight: bold;
-  background-color: #fff;
+  background-color: #222;
+  color: #fff;
 }
 
 .open {
@@ -419,7 +420,7 @@ body {
   }
   .close {
     height: 300px;
-    margin-left: 130px;
+    margin-left: 80px;
   }
 }
 
@@ -466,6 +467,7 @@ body {
 
 .hero__item-img {
   display: block;
+  margin-top: 10px;
 }
 
 .hero__item-img:hover {
@@ -1205,7 +1207,7 @@ body {
           justify-content: space-between;
 }
 
-.contant {
+.contant__wrapper {
   margin-left: 60px;
 }
 
@@ -1250,5 +1252,189 @@ body {
   color: #333333;
   padding: 8px 28px;
   margin-left: 250px;
+}
+
+@media only screen and (max-width: 769px) {
+  .footer__container {
+    display: inline-block;
+  }
+  .contant {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+    margin-left: 90px;
+  }
+  .contant__title {
+    margin-bottom: 15px;
+  }
+  .contant__link {
+    margin-bottom: 10px;
+  }
+  .contant__about {
+    margin-left: 170px;
+  }
+  .contant__information-title {
+    margin-left: 90px;
+    margin-bottom: 50px;
+  }
+  .contant__input {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+    width: 400px;
+    padding-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+  }
+  .contant__btn {
+    margin-bottom: 100px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    margin-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 611px) {
+  .contant {
+    margin-left: 30px;
+  }
+  .contant__information {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 561px) {
+  .contant {
+    margin-left: 10px;
+  }
+  .contant__information-title {
+    margin-left: 60px;
+  }
+  .contant__input {
+    margin-left: 55px;
+  }
+  .contant__btn {
+    margin-left: 190px;
+  }
+}
+
+@media only screen and (max-width: 511px) {
+  .contant {
+    margin-left: 10px;
+  }
+  .contant__information-title {
+    margin-left: 50px;
+  }
+  .contant__input {
+    margin-left: 40px;
+  }
+  .contant__btn {
+    margin-left: 175px;
+  }
+  .contant__about {
+    margin-left: 90px;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .contant {
+    margin-left: 10px;
+  }
+  .contant__information-title {
+    margin-left: 30px;
+  }
+  .contant__input {
+    margin-left: 20px;
+  }
+  .contant__btn {
+    margin-left: 160px;
+  }
+  .contant__about {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .contant {
+    margin-left: 10px;
+  }
+  .contant__wrapper {
+    margin-left: 30px;
+  }
+  .contant__information-title {
+    max-width: 250px;
+    margin-left: 0;
+  }
+  .contant__input {
+    width: 250px;
+    margin-left: 0;
+    font-size: 12px;
+  }
+  .contant__btn {
+    margin-left: 180px;
+  }
+  .contant__about {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .contant {
+    margin-left: 0;
+  }
+  .contant__wrapper {
+    margin-left: 30px;
+  }
+  .contant__title {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .contant__link {
+    font-size: 12px;
+  }
+  .contant__btn {
+    margin-left: 150px;
+  }
+  .contant__about {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .contant {
+    margin-left: 0;
+  }
+  .contant__wrapper {
+    margin-left: 25px;
+  }
+  .contant__information-title {
+    max-width: 200px;
+    margin-left: 0;
+  }
+  .contant__title {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .contant__link {
+    font-size: 10px;
+  }
+  .contant__input {
+    width: 200px;
+    margin-left: 0;
+    font-size: 11px;
+  }
+  .contant__btn {
+    margin-left: 100px;
+  }
+  .contant__about {
+    margin-left: 60px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
