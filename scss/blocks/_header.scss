@@ -126,7 +126,7 @@
         overflow-x: hidden;
 
          &__logo-img {
-            margin-right: 300px;
+            margin-right: 350px;
         }
     }
 
@@ -141,6 +141,34 @@
 
          &__logo-img {
             margin-right: 310px;
+        }
+    }
+
+    .close {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .header {
+        overflow-x: hidden;
+
+         &__logo-img {
+            margin-right: 270px;
+        }
+    }
+
+    .close {
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (max-width: 496px) {
+    .header {
+        overflow-x: hidden;
+
+         &__logo-img {
+            margin-right: 230px;
         }
     }
 
@@ -164,12 +192,12 @@
     }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 376px) {
     .header {
         overflow-x: hidden;
 
          &__logo-img {
-            margin-right: 180px;
+            margin-right: 130px;
         }
     }
 
