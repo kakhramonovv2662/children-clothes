@@ -246,6 +246,16 @@
     }
 }
 
+@media only screen and (max-width: 481px) {
+    .child {
+
+        &__img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
 @media only screen and (max-width: 426px) {
     .child {
 

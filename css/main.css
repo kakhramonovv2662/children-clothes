@@ -1129,6 +1129,13 @@ body {
   }
 }
 
+@media only screen and (max-width: 481px) {
+  .child__img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 @media only screen and (max-width: 426px) {
   .child__first-img {
     width: 370px;
