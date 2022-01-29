@@ -122,6 +122,36 @@
     }
 }
 
+@media only screen and (max-width: 610px) {
+    .header {
+        overflow-x: hidden;
+
+         &__logo-img {
+            margin-right: 340px;
+        }
+    }
+
+    .close {
+        width: 100vh;
+        margin-left: 290px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header {
+        overflow-x: hidden;
+
+         &__logo-img {
+            margin-right: 200px;
+        }
+    }
+
+    .close {
+        width: 100vh;
+        margin-left: 140px;
+    }
+}
+
 @media only screen and (max-width: 426px) {
     .header {
         overflow-x: hidden;
