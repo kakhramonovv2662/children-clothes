@@ -253,8 +253,6 @@ body {
 }
 
 .header__tablet-wrapper {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
   display: none;
 }
 
