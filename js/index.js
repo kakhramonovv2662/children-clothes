@@ -28,29 +28,29 @@ changeImg(elSecondImages)
 changeImg(elThreeImages)
 changeImg(elFourImages)
 
-// function handleSubmit(evt) {
-//     evt.preventDefault()
+function handleSubmit(evt) {
+    evt.preventDefault()
     
-// }
+}
 
-// elForm.addEventListener('submit', handleSubmit)
+elForm.addEventListener('submit', handleSubmit)
 
-// function handleRightBtn () {
-//     let handleNumber = numberBtn.textContent++
+function handleRightBtn () {
+    let handleNumber = numberBtn.textContent++
 
-// }
+}
 
-// function handleLeftBtn () {
+function handleLeftBtn () {
 
-//     if ( numberBtn.textContent == firstNum) {
-//         numberBtn.textContent == 1
-//     }else {
-//         numberBtn.textContent--
-//     }
-// }
+    if ( numberBtn.textContent == firstNum) {
+        numberBtn.textContent == 1
+    }else {
+        numberBtn.textContent--
+    }
+}
 
-// rightBtn.addEventListener('click', handleRightBtn)
-// leftBtn.addEventListener('click', handleLeftBtn)
+rightBtn.addEventListener('click', handleRightBtn)
+leftBtn.addEventListener('click', handleLeftBtn)
 
 function handleOpenBtn () {
     wrapperFather.classList.toggle('open');

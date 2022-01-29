@@ -702,7 +702,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 560px) {
   .hero {
     overflow-x: hidden;
   }
