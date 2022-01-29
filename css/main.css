@@ -265,7 +265,7 @@ body {
 }
 
 .close {
-  width: 100vh;
+  width: 290px;
   background-color: #fff;
   display: none;
   margin-top: 50px;
@@ -357,7 +357,6 @@ body {
     margin-right: 300px;
   }
   .close {
-    width: 100vh;
     margin-left: 250px;
   }
 }
@@ -370,7 +369,6 @@ body {
     margin-right: 170px;
   }
   .close {
-    width: 100vh;
     margin-left: 100px;
   }
 }
@@ -383,7 +381,6 @@ body {
     margin-right: 140px;
   }
   .close {
-    width: 100vh;
     height: 100vh;
     margin-left: 100px;
   }
@@ -397,7 +394,6 @@ body {
     margin-right: 90px;
   }
   .close {
-    width: 100vh;
     height: 100vh;
     margin-left: 20px;
   }
