@@ -418,6 +418,10 @@ body {
   .header__logo-img {
     margin-right: 150px;
   }
+  .close {
+    height: 300px;
+    margin-left: 100px;
+  }
 }
 
 @media only screen and (max-width: 376px) {
