@@ -126,6 +126,15 @@
     }
 }
 
+@media only screen and (max-width: 710px) {
+    .child {
+        &__img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
+
 @media only screen and (max-width: 611px) {
     .child {
 
@@ -143,8 +152,8 @@
         }
 
         &__img {
-            width: 250px;
-            height: 250px;
+            width: 200px;
+            height: 200px;
         }
 
     }
