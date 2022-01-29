@@ -8,8 +8,15 @@
 }
 
 .contant {
+    display: flex;
+    align-items: center;
+
     &__wrapper {
         margin-left: 60px;
+    }
+
+    &__about {
+        margin-left: 180px;
     }
 
     &__title {
@@ -219,10 +226,18 @@
     }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 390px) {
     .contant {
+        &__title {
+            font-size: 13px;
+        }
+
+        &__information-title {
+            max-width: 200px;
+        }
+
         &__btn {
-            margin-left: 120px;
+            margin-left: 130px;
         }
     }
 }
