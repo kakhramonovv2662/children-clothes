@@ -120,21 +120,25 @@
     }
 }
 
-@media only screen and (max-width: 561px) {
+@media only screen and (max-width: 555px) {
 
     .contant {
         margin-left: 10px;
 
+        &__about {
+            margin-left: 120px;
+        }
+
         &__information-title {
-            margin-left: 60px;
+            margin-left: 50px;
         }
 
         &__input {
-            margin-left: 55px;
+            margin-left: 45px;
         }
 
         &__btn {
-            margin-left: 190px;
+            margin-left: 180px;
         }
     }
 }

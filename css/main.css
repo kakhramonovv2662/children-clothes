@@ -1309,18 +1309,21 @@ body {
   }
 }
 
-@media only screen and (max-width: 561px) {
+@media only screen and (max-width: 555px) {
   .contant {
     margin-left: 10px;
   }
+  .contant__about {
+    margin-left: 120px;
+  }
   .contant__information-title {
-    margin-left: 60px;
+    margin-left: 50px;
   }
   .contant__input {
-    margin-left: 55px;
+    margin-left: 45px;
   }
   .contant__btn {
-    margin-left: 190px;
+    margin-left: 180px;
   }
 }
 
