@@ -439,6 +439,7 @@ body {
 .hero {
   position: relative;
   z-index: 1;
+  margin-top: 60px;
 }
 
 .hero__container {
