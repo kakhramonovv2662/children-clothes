@@ -361,12 +361,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 560px) {
   .header {
     overflow-x: hidden;
   }
   .header__logo-img {
-    margin-right: 310px;
+    margin-right: 300px;
   }
   .close {
     margin-left: 250px;
