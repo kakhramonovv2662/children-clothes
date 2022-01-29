@@ -149,18 +149,18 @@
     }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 425px) {
     .header {
         overflow-x: hidden;
 
          &__logo-img {
-            margin-right: 140px;
+            margin-right: 180px;
         }
     }
 
     .close {
-        height: 100vh;
-        margin-left: 100px;
+        height: 300px;
+        margin-left: 130px;
     }
 }
 
