@@ -1,7 +1,6 @@
 .hero {
     position: relative;
     z-index: 1;
-    margin-top: 50px;
 
     &__container {
         display: flex;
@@ -17,7 +16,6 @@
         list-style-type: none;
         position: absolute;
         z-index: 1;
-        top: 0;
         left: 30px;
         top: 30px;
     }
@@ -249,7 +247,7 @@
     }
 
     &__dotted {
-        width: 580px;
+        width: 450px;
         border: 0.5px solid #C4C4C4;
     }
 }
@@ -282,6 +280,156 @@
 
         &:active {
             opacity: 0.7;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+
+        &__wrapper {
+            display: inline-block;
+        }
+
+        &__images {
+            width: 700px;
+            height: 900px;
+        }
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .hero {
+        overflow-x: hidden;
+
+        &__wrapper {
+            display: inline-block;
+        }
+
+        &__images {
+            width: 520px;
+            height: 800px;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .hero {
+        overflow-x: hidden;
+
+        &__wrapper {
+            display: inline-block;
+        }
+
+        &__images {
+            margin-top: 60px;
+            width: 500px;
+            height: 700px;
+        }
+
+        &__list {
+            top: 100px;
+        }
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .hero {
+        overflow-x: hidden;
+
+        &__wrapper {
+            display: inline-block;
+        }
+
+        &__images {
+            width: 370px;
+            height: 570px;
+        }
+
+        &__list {
+            top: 140px;
+        }
+    }
+
+    .wrapper {
+        margin-left: 0;
+    }
+
+    .form {
+
+        &__btn {
+            flex-wrap: wrap;
+        }
+
+        &__left-btn {
+            margin-bottom: 15px;
+        }
+
+        &__right-btn {
+            display: block;
+            margin-right: 170px;
+        }
+
+        &__korzika {
+            margin-left: 0;
+        }
+
+        &__dotted {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .hero {
+        overflow-x: hidden;
+
+        &__wrapper {
+            display: inline-block;
+        }
+
+        &__images {
+            width: 315px;
+            height: 480px;
+        }
+
+        &__list {
+            top: 120px;
+        }
+
+        &__item-img {
+            width: 45px;
+            height: 60px;
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .hero {
+        overflow-x: hidden;
+
+        &__wrapper {
+            display: inline-block;
+        }
+
+        &__images {
+            width: 260px;
+            height: 350px;
+        }
+
+        &__list {
+            top: 80px;
+        }
+
+        &__item-img {
+            width: 40px;
+            height: 50px;
+        }
+    }
+
+    .form {
+        &__right-btn {
+            margin-right: 50px;
         }
     }
 }

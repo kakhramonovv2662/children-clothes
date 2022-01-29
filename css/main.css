@@ -230,7 +230,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 .header__logo-img {
@@ -366,14 +366,27 @@ body {
     overflow-x: hidden;
   }
   .header__logo-img {
-    margin-right: 170px;
+    margin-right: 310px;
   }
   .close {
-    margin-left: 100px;
+    margin-left: 250px;
   }
 }
 
 @media only screen and (max-width: 425px) {
+  .header {
+    overflow-x: hidden;
+  }
+  .header__logo-img {
+    margin-right: 180px;
+  }
+  .close {
+    height: 300px;
+    margin-left: 130px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
   .header {
     overflow-x: hidden;
   }
@@ -402,7 +415,6 @@ body {
 .hero {
   position: relative;
   z-index: 1;
-  margin-top: 50px;
 }
 
 .hero__container {
@@ -423,7 +435,6 @@ body {
   list-style-type: none;
   position: absolute;
   z-index: 1;
-  top: 0;
   left: 30px;
   top: 30px;
 }
@@ -631,7 +642,7 @@ body {
 }
 
 .form__dotted {
-  width: 580px;
+  width: 450px;
   border: 0.5px solid #C4C4C4;
 }
 
@@ -666,6 +677,125 @@ body {
 
 .information__link:active {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__wrapper {
+    display: inline-block;
+  }
+  .hero__images {
+    width: 700px;
+    height: 900px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .hero {
+    overflow-x: hidden;
+  }
+  .hero__wrapper {
+    display: inline-block;
+  }
+  .hero__images {
+    width: 520px;
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hero {
+    overflow-x: hidden;
+  }
+  .hero__wrapper {
+    display: inline-block;
+  }
+  .hero__images {
+    margin-top: 60px;
+    width: 500px;
+    height: 700px;
+  }
+  .hero__list {
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .hero {
+    overflow-x: hidden;
+  }
+  .hero__wrapper {
+    display: inline-block;
+  }
+  .hero__images {
+    width: 370px;
+    height: 570px;
+  }
+  .hero__list {
+    top: 140px;
+  }
+  .wrapper {
+    margin-left: 0;
+  }
+  .form__btn {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .form__left-btn {
+    margin-bottom: 15px;
+  }
+  .form__right-btn {
+    display: block;
+    margin-right: 170px;
+  }
+  .form__korzika {
+    margin-left: 0;
+  }
+  .form__dotted {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .hero {
+    overflow-x: hidden;
+  }
+  .hero__wrapper {
+    display: inline-block;
+  }
+  .hero__images {
+    width: 315px;
+    height: 480px;
+  }
+  .hero__list {
+    top: 120px;
+  }
+  .hero__item-img {
+    width: 45px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hero {
+    overflow-x: hidden;
+  }
+  .hero__wrapper {
+    display: inline-block;
+  }
+  .hero__images {
+    width: 260px;
+    height: 350px;
+  }
+  .hero__list {
+    top: 80px;
+  }
+  .hero__item-img {
+    width: 40px;
+    height: 50px;
+  }
+  .form__right-btn {
+    margin-right: 50px;
+  }
 }
 
 .child {

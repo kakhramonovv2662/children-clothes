@@ -16,17 +16,17 @@ let elOpenBtn = document.querySelector('.js-open-btn')
 let elCloseBtn = document.querySelector('.js-close-btn')
 let wrapperFather = document.querySelector('.js-close')
 
-// function changeImg(img){
-//     img.addEventListener('click', function() {
-//         elImages.src = img.src
-//     })
-// }
+function changeImg(img){
+    img.addEventListener('click', function() {
+        elImages.src = img.src
+    })
+}
 
-// changeImg(elBigImg)
-// changeImg(elFirstImages)
-// changeImg(elSecondImages)
-// changeImg(elThreeImages)
-// changeImg(elFourImages)
+changeImg(elBigImg)
+changeImg(elFirstImages)
+changeImg(elSecondImages)
+changeImg(elThreeImages)
+changeImg(elFourImages)
 
 // function handleSubmit(evt) {
 //     evt.preventDefault()
