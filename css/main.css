@@ -356,11 +356,11 @@ body {
     overflow-x: hidden;
   }
   .header__logo-img {
-    margin-right: 340px;
+    margin-right: 300px;
   }
   .close {
     width: 100vh;
-    margin-left: 290px;
+    margin-left: 250px;
   }
 }
 
@@ -369,11 +369,11 @@ body {
     overflow-x: hidden;
   }
   .header__logo-img {
-    margin-right: 200px;
+    margin-right: 170px;
   }
   .close {
     width: 100vh;
-    margin-left: 140px;
+    margin-left: 100px;
   }
 }
 
